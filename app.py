@@ -303,7 +303,7 @@ def get_admin_panel_keyboard():
 
 def build_welcome_text(user_id: int, full_name: str) -> str:
     return f"""╔═══════════════════════╗
-    🚀 <b>GENIUS HOSTBOT</b> 🚀
+    🚀 <b>CYBER HOSTING BOT</b> 🚀
     ⚡ <i>Script Runner Bot</i>
 ╚═══════════════════════╝
 
@@ -2369,7 +2369,7 @@ async def panel_api(request):
     return web.json_response(_collect())
 
 ADMIN_HTML = """<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Genius HostBot - Dashboard</title><style>
+<title>CYBER HOSTING BOT- Dashboard</title><style>
 *{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:#0b0f17;color:#e6edf3;display:flex;min-height:100vh}
 #side{width:220px;background:#111826;border-right:1px solid #1f2a3d;padding:16px 10px;position:fixed;top:0;bottom:0;left:0;z-index:20;transition:.2s}
 .logo{font-weight:800;font-size:17px;padding:4px 10px 16px}.logo span{color:#58a6ff}
@@ -2400,7 +2400,7 @@ input,textarea{background:#0b0f17;color:#e6edf3;border:1px solid #30363d;border-
 <button class="nav" data-p="files">📁 All Files</button><button class="nav" data-p="users">👥 Users</button>
 <button class="nav" data-p="cast">📢 Broadcast</button><button class="nav" data-p="set">⚙️ Settings</button>
 <a class="nav" href="/" style="text-decoration:none">🌐 Website</a><div class="side-foot">Developed by CYBER INSIGHT</div></div>
-<div id="main"><div id="top"><button class="a b" onclick="$('side').classList.toggle('open')">☰ Menu</button><b>Genius HostBot</b></div>
+<div id="main"><div id="top"><button class="a b" onclick="$('side').classList.toggle('open')">☰ Menu</button><b>CYBER HOSTING BOT</b></div>
 <h2 id="ttl"></h2><div class="sub" id="st"></div><div id="view"></div></div><div id="toast"></div>
 <script>
 const $=id=>document.getElementById(id);let D=null,P='over',Q='';
@@ -2436,7 +2436,7 @@ async def admin_page(request):
     return web.Response(text=ADMIN_HTML, content_type='text/html')
 
 LANDING_HTML = """<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Genius HostBot - Free Telegram Bot Hosting</title><meta name="description" content="Python aur Node.js bots ko Telegram se free mein host karo. Unlimited uploads, koi premium nahi.">
+<title>CYBER HOSTING BOT- Free Telegram Bot Hosting</title><meta name="description" content="Python aur Node.js bots ko Telegram se free mein host karo. Unlimited uploads, koi premium nahi.">
 <style>
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:system-ui,sans-serif;background:#070b12;color:#e6edf3;line-height:1.55}
 nav{display:flex;justify-content:space-between;align-items:center;padding:14px 22px;position:sticky;top:0;background:#070b12ee;backdrop-filter:blur(8px);border-bottom:1px solid #151d2c;z-index:5}
